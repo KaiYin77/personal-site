@@ -78,7 +78,6 @@ const Map = () => {
                 >
                   <Popup>
                     <div>
-                      <p>You clicked here!</p>
                       <button type="button" onClick={(e) => removeMarker(index, e)}>Remove Marker</button>
                     </div>
                   </Popup>
