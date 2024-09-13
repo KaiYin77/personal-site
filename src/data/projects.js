@@ -19,6 +19,15 @@ const data = [
       'IPPR Conference on Computer Vision, Graphics, and Image Processing (CVGIP 2023) / Ranked 8th on the Waymo official leaderboard',
   },
   {
+    title: 'Patencloud Products',
+    subtitle: '',
+    link: 'https://app.patentcloud.com/',
+    image: '/images/projects/sep.png',
+    date: '2023-12',
+    desc:
+      'Contributed to several new features, encompassing interactive front-end implementation and the design of backend business logic.',
+  },
+  {
     title: 'Midnight Clash Website',
     subtitle: '',
     link: 'https://x.com/midnightclash1',
@@ -35,15 +44,6 @@ const data = [
     date: '2022-06',
     desc:
       'A decentralized health data management system built on Ethereum, utilizing blockchain technology and featuring a federated learning prototype for enhanced data security and privacy.',
-  },
-  {
-    title: 'Patencloud Products',
-    subtitle: '',
-    link: 'https://app.patentcloud.com/',
-    image: '/images/projects/sep.png',
-    date: '2023-12',
-    desc:
-      'Contributed to several new features, encompassing interactive front-end implementation and the design of backend business logic.',
   },
 ];
 
