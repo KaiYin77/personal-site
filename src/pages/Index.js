@@ -6,8 +6,8 @@ import Main from '../layouts/Main';
 const Index = () => (
   <Main
     description={
-      "Kai Yin's personal website. New York based Stanford ICME graduate, "
-      + 'VP of Engineering at Smile Identity, co-founder of Arthena and Matroid, and YC Alumni.'
+      "Kai Yin's personal website. Taiwan-based NYCU ECE graduate, "
+      + 'Software Engineer @UpbeatTech'
     }
   >
     <article className="post" id="index">
@@ -17,23 +17,17 @@ const Index = () => (
             <Link to="/">About this site</Link>
           </h2>
           <p>
-            A beautiful, responsive, statically-generated, react application
-            written with modern Javascript.
+            This elegant React website helps you understand me better
+            and showcases my work effectively.
           </p>
+
         </div>
       </header>
       <p>
         {' '}
         Welcome to my website. Please feel free to read more{' '}
-        {/* <Link to="/about">about me</Link>, or you can check out my{' '} */}
-        <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>,{' '}
-        view <Link to="/stats">site statistics</Link>, or{' '}
-        <Link to="/contact">contact</Link> me.
-      </p>
-      <p>
-        {' '}
-        Source available{' '}
-        <a href="https://github.com/mldangelo/personal-site">here</a>.
+        <Link to="/resume">resume</Link>, view <Link to="/projects">projects</Link>,{' '}
+        or{' '}<Link to="/contact">contact</Link> me.
       </p>
     </article>
   </Main>

@@ -21,12 +21,11 @@ const SideBar = () => (
       <h2>About</h2>
       <p>
         Hi, I&apos;m Kaiyin. I am a{' '}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        alumnus, and the co-founder and CTO of{' '}
-        <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I
-        was VP of Engineering at <a href="https://usesmileid.com">SmileID</a>,
-        co-founder and CTO of <a href="https://arthena.com">Arthena</a>, and
-        co-founded <a href="https://matroid.com">Matroid</a>.
+        <a href="https://ece.nycu.edu.tw/">NYCU ECE</a> graduate, Software Engineer of{' '}
+        <a href="https://www.upbeattechtw.com/">UpbeatTech</a>. Previously, I
+        gained valuable experience as an intern software engineer at <a href="https://www.inquartik.com.tw/about-us/">InQuartik</a>,
+        and as an intern at <a href="https://www.itri.org.tw/">ITRI</a>
+        and <a href="https://www.gallopwave.com/">Gallopwave</a>.
       </p>
       <ul className="actions">
         <li>
@@ -35,9 +34,7 @@ const SideBar = () => (
               Learn More
             </Link>
           ) : (
-            <Link to="/about" className="button">
-              About Me
-            </Link>
+            <> </>
           )}
         </li>
       </ul>
