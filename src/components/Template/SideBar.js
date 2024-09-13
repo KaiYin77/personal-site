@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import ContactIcons from '../Contact/ContactIcons';
-
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
 const SideBar = () => (
@@ -12,9 +10,9 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
+        <h2>Kai-Yin</h2>
         <p>
-          <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+          <a href="mailto:kaiyin.career@gmail.com">kaiyin.career@gmail.com</a>
         </p>
       </header>
     </section>
@@ -22,7 +20,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Michael. I am a{' '}
+        Hi, I&apos;m Kaiyin. I am a{' '}
         <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
         alumnus, and the co-founder and CTO of{' '}
         <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I
@@ -43,13 +41,6 @@ const SideBar = () => (
           )}
         </li>
       </ul>
-    </section>
-
-    <section id="footer">
-      <ContactIcons />
-      <p className="copyright">
-        &copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.
-      </p>
     </section>
   </section>
 );
