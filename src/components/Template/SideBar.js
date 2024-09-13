@@ -21,11 +21,10 @@ const SideBar = () => (
       <h2>About</h2>
       <p>
         Hi, I&apos;m Kaiyin. I am a{' '}
-        <a href="https://ece.nycu.edu.tw/">NYCU ECE</a> graduate, Software Engineer of{' '}
-        <a href="https://www.upbeattechtw.com/">UpbeatTech</a>. Previously, I
-        gained valuable experience as an intern software engineer at <a href="https://www.inquartik.com.tw/about-us/">InQuartik</a>,
-        and as an intern at <a href="https://www.itri.org.tw/">ITRI</a>
-        and <a href="https://www.gallopwave.com/">Gallopwave</a>.
+        <a href="https://ece.nycu.edu.tw/"> NYCU ECE </a> graduate, Software Engineer of{' '}
+        <a href="https://www.upbeattechtw.com/"> UpbeatTech </a>. Previously, I
+        gained valuable experience as an intern software engineer at <a href="https://www.inquartik.com.tw/about-us/"> InQuartik </a>,
+        and as an intern at <a href="https://www.itri.org.tw/"> ITRI </a> and <a href="https://www.gallopwave.com/"> Gallopwave </a>.
       </p>
       <ul className="actions">
         <li>

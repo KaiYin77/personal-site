@@ -10,4 +10,6 @@
   @include vendor("flex-grow", "1");
   -ms-flex: 1;
   width: 100%;
+  margin-left: 22em; /* Leave space for the sidebar */
+  padding: 20px; /* Padding for the main content */
 }

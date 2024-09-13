@@ -6,10 +6,17 @@
 
 /* Sidebar */
 
+/* Sidebar styling */
 #sidebar {
-  margin-right: _size(section-spacing);
-  min-width: 22em;
-  width: 22em;
+  position: fixed;
+  top: 9em; /* Adjust top position if needed */
+  left: 42%; /* Center the sidebar horizontally in the viewport */
+  transform: translateX(calc(-50% - 22em)); /* Move it to the left by 22em */
+  width: 22em; /* Width of the sidebar */
+  height: 100vh; /* Full viewport height */
+  background-color: #f4f4f4;
+  z-index: 1000;
+  overflow-y: scroll; /* Enable scrolling */
 
   > * {
     border-top: solid 1px _palette(border);
@@ -29,5 +36,38 @@
     min-width: 0;
     padding: _size(section-spacing) 0 0 0;
     width: 100%;
+  }
+}
+
+/* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+#sidebar::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+/* Hide scrollbar for Firefox */
+#sidebar {
+  -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  #main {
+    margin-left: 0; /* Remove margin for smaller screens */
+    width: 100%; /* Full width for smaller screens */
+  }
+
+  #sidebar {
+    width: 100%; /* Full width for smaller screens */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left edge */
+    height: auto; /* Auto height for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    top: 0; /* Align to the top */
+    height: auto; /* Auto height for smaller screens */
   }
 }
