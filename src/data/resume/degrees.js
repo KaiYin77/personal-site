@@ -1,15 +1,15 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'National Yang Ming Chiao Tung University',
+    degree: 'M.S. Electrical and Computer Engineering',
+    link: 'https://www.nycu.edu.tw/',
+    year: 2024,
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'National Yang Ming Chiao Tung University',
+    degree: 'B.S. Electrical and Computer Engineering',
+    link: 'https://www.nycu.edu.tw/',
+    year: 2022,
   },
 ];
 
