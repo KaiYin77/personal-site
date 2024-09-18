@@ -17,11 +17,20 @@ const Carousel = ({ images }) => {
       <button type="button" onClick={prevSlide} className="carousel__btn carousel__btn--prev">
         &lt;
       </button>
-      <img
-        src={images[activeIndex]}
-        alt={`Slide ${activeIndex}`}
-        className="carousel__img"
-      />
+      <div
+        className="carousel__container"
+        style={{ transform: `translateX(-${activeIndex * 100}%)` }} // Shift images based on activeIndex
+      >
+        {images.map((image, index) => (
+          <div key={image} className="carousel__image-wrapper">
+            <img
+              src={image}
+              alt={`Slide ${index}`}
+              className="carousel__img"
+            />
+          </div>
+        ))}
+      </div>
       <button type="button" onClick={nextSlide} className="carousel__btn carousel__btn--next">
         &gt;
       </button>

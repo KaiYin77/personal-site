@@ -7,6 +7,11 @@
     align-items: center; /* Vertically center the image */
     justify-content: center; /* Horizontally center the image */
 }
+.carousel__container {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Smooth transition for sliding effect */
+    width: 100%;
+}
 .carousel__btn {
     position: absolute;
     width: 3rem; /* Set width */
@@ -17,10 +22,9 @@
     cursor: pointer;
     z-index: 1;
 }
-
 .carousel__btn:hover {
     background-color: rgba(0, 0, 0, 0.025); /* Darker on hover */
-    transform: scale(1.1); /* Slightly enlarge button on hover */
+    transform: scale(1.08); /* Slightly enlarge button on hover */
 }
 
 .carousel__btn--prev {
@@ -32,12 +36,21 @@
 }
 .carousel__img {
     width: auto;       /* Adjust width to auto to maintain aspect ratio */
-    height: 30em;      /* Set height to 30em */
+    height: 28em;      /* Set height to 30em */
     display: block;
     transition: transform 0.3s ease-in-out;
     max-width: 100%;   /* Ensure image doesn’t exceed container width */
+    flex-shrink: 0;
 }
 .carousel__img:hover {
-   transform: scale(1.05);
+   transform: scale(1.02);
+}
+.carousel__image-wrapper {
+    flex: 0 0 100%; /* Ensure each wrapper takes full width of the container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff; /* White background for the image wrapper */
+    padding: 2rem; /* Padding around the image */
 }
   
