@@ -23,7 +23,6 @@ const routes = [
   {
     label: 'GitBook',
     path: '/gitbook',
-    url: 'https://kaiyin77.gitbook.io/kaiyin77',
   },
   {
     label: 'Contact',
