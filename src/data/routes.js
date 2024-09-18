@@ -21,6 +21,11 @@ const routes = [
     path: '/gallery',
   },
   {
+    label: 'GitBook',
+    path: '/gitbook',
+    url: 'https://kaiyin77.gitbook.io/kaiyin77',
+  },
+  {
     label: 'Contact',
     path: '/contact',
   },
