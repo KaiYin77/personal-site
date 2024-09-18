@@ -1,0 +1,28 @@
+.gallery-carousel-container {
+  width: 100%; /* Ensure container spans the full width */
+  overflow: hidden; /* Hide any overflow from images */
+}
+
+.carousel-image-wrapper {
+  padding: 10px; /* Adjust padding as needed */
+  background-color: white; /* Set background color to white */
+  display: flex; /* Align items within the wrapper */
+  justify-content: center; /* Center align images horizontally */
+}
+
+.carousel-image {
+  height: 40em; /* Set the height for images */
+  width: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default inline spacing */
+}
+
+.gallery-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.gallery-image-wrapper {
+  background-color: white;
+  padding: 10px; /* Adjust padding as needed */
+}

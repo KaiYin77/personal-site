@@ -1,0 +1,43 @@
+/* src/Carousel.css */
+.carousel {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center; /* Vertically center the image */
+    justify-content: center; /* Horizontally center the image */
+}
+.carousel__btn {
+    position: absolute;
+    width: 3rem; /* Set width */
+    border-radius: 50%; /* Make button circular */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    cursor: pointer;
+    z-index: 1;
+}
+
+.carousel__btn:hover {
+    background-color: rgba(0, 0, 0, 0.025); /* Darker on hover */
+    transform: scale(1.1); /* Slightly enlarge button on hover */
+}
+
+.carousel__btn--prev {
+    left: 10px; /* Adjust for spacing from the edge */
+}
+
+.carousel__btn--next {
+    right: 10px; /* Adjust for spacing from the edge */
+}
+.carousel__img {
+    width: auto;       /* Adjust width to auto to maintain aspect ratio */
+    height: 30em;      /* Set height to 30em */
+    display: block;
+    transition: transform 0.3s ease-in-out;
+    max-width: 100%;   /* Ensure image doesn’t exceed container width */
+}
+.carousel__img:hover {
+   transform: scale(1.05);
+}
+  
