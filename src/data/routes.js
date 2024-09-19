@@ -22,7 +22,7 @@ const routes = [
   },
   {
     label: 'Blog',
-    path: '/gitbook',
+    path: '/blog',
     url: 'https://kaiyin77.github.io/blog/',
   },
   {
