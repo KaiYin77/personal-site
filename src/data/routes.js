@@ -21,7 +21,7 @@ const routes = [
     path: '/gallery',
   },
   {
-    label: 'GitBook',
+    label: 'Blog',
     path: '/gitbook',
     url: 'https://kaiyin77.github.io/blog/',
   },
